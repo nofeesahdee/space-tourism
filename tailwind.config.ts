@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import image from "./starter-code/assets/home/background-home-desktop.jpg"
 
 const config: Config = {
   content: [
@@ -9,9 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "desktop": "../../starter-code/assets/home/background-home-desktop.jpg",
+        "tablet": "../../starter-code/assets/home/background-home-tablet.jpg",
+        "mobile": "../../starter-code/assets/home/background-home-mobile.jpg",
+      },
+      screens: {
+        'md': '374px',
+        'lg': '770px',
       },
     },
   },
