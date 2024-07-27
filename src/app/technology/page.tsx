@@ -22,9 +22,9 @@ export default async function Home() {
                                 </h1>
                                 <p className="text-base lg:text-lg text-[#D0D6F9] md:px-6 lg:px-0 pb-6 lg:pb-10 ">
                                     A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
-                                    payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+                                    payload from Earths surface to space, usually to Earth orbit or beyond. Our
                                     WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
-                                    it's quite an awe-inspiring sight on the launch pad!
+                                    its quite an awe-inspiring sight on the launch pad!
                                 </p>
                             </div>
                         </div>
